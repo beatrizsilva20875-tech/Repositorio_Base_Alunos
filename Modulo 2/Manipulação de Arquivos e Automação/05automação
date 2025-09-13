@@ -1,0 +1,9 @@
+import pyautogui
+
+pyautogui.press("win") #abrimos o windows
+pyautogui.sleep(1) #aguardamos 1 segundob 
+pyautogui.write("Calculadora")# Comando para abrir a calculadora
+pyautogui.press("enter")
+pyautogui.sleep(1)
+pyautogui.write("2 +8")# digito a operação
+pyautogui.press("enter") # Pressione enter
